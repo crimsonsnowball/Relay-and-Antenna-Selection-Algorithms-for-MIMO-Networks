@@ -1,8 +1,4 @@
 # Relay-and-Antenna-Selection-Algorithms-for-MIMO-Networks
 This repo is simulation of the research paper titled "Joint Relay-and-Antenna Selection in Multi-Antenna Relay Networks"
 
-
-• Implemented a joint relay-and-antenna selection algorithm for a MIMO network with multiple half duplex relays.
-• The scheme improved the outage probability performance of the relay networks compared to sub-optimal schemes.
-• Achieved a 99% match by validating results through theoretical derivation and comparison with numerical results.
-
+In relay networks employing the decode-and-forward protocol, opportunistic relaying (OR) and selection cooperation (SC) are the primary relay selection schemes, traditionally examined for single-antenna terminals. This paper extends the study to multi-antenna relay networks where each terminal is equipped with multiple antennas. To leverage the benefits of multiple antennas without significant feedback overhead, we implement transmit antenna selection (TAS). We propose two joint relay-and-antenna selection schemes that integrate OR and SC with TAS: joint OR-TAS and joint SC-TAS. In each scheme, the optimal transmit antenna at the source, the best relay, and the optimal transmit antenna at the selected relay are determined jointly. In this network, during the first time slot, the selected antenna at the source transmits a symbol to the selected relay; during the second time slot, the selected antenna at the relay retransmits the detected symbol to the destination. We derive the outage probability for joint OR-TAS and show that the outage probability for joint SC-TAS is identical to that of joint OR-TAS.
